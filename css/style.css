@@ -1,0 +1,222 @@
+#header, #mainContent, #footer {
+    margin:0px auto;
+    overflow: auto;
+    width: 980px;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #eeeeee;
+    box-sizing: content-box;
+}
+
+#logo, #welcomeBanner {
+    height: 100px;
+    line-height: 100px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#logo {
+    float: left;
+    width: 200px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    background-color: #2e6680;
+    color: white;
+}
+
+#welcomeBanner {
+    float: right;
+    width: 780px;
+    color: #2e6680;
+}
+
+#navigationMenu {
+    float: left;
+    width: 200px;
+}
+
+#navigationMenu ul {
+    list-style: none;
+    padding: 0px;
+}
+#navigationMenu ul li {
+    display: block;
+    width: 200px;
+    float: left;
+    background-color: #2e6680;
+    color: white;
+    margin-bottom: 20px;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#navigationMenu ul li:hover {
+    color: red;
+    background-color: #547c80;
+}
+
+#showcart {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: block;
+    width: 150px;
+    float: left;
+    background-color: #0e8000;
+    color: white;
+    margin-bottom: 20px;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+}
+
+#showcart:hover {
+     color: green;
+     background-color: #0eda00;
+}
+
+#productList {
+    float: right;
+    width: 750px;
+}
+
+#productList ul {
+    padding: 0px;
+    list-style: none;
+}
+
+#productList ul li {
+    display: block;
+    float: left;
+    padding: 10px;
+    margin: 0px 10px 10px;
+    height: 230px;
+    width: 200px;
+    overflow: hidden;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    box-sizing: content-box;
+}
+
+#productList ul li:hover {
+    background-color: #aaaaaa;
+}
+
+#productList ul li .product {
+    height: 200px;
+    max-width: 200px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#productList ul li .cartSymbol {
+    width: 200px;
+    max-height: 170px;
+
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-top-bottomright: 5px;
+    -moz-border-top-bottomleft: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-align: center;
+    background-color: black;
+    opacity: .6;
+}
+
+#productList ul li .add, #productList ul li .remove{
+    color: white;
+    text-align: center;
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    opacity: 0.8;
+    text-align: center;
+    cursor: pointer;
+}
+
+#productList ul li .add {
+    background-color: green;
+    display: none;
+    top: 90px;
+    left: 20px;
+}
+
+#productList ul li .remove {
+    background-color: red;
+    display: none;
+    top: 90px;
+    left: 120px;
+}
+
+#productList ul li .price {
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    bottom: 40px;
+    opacity: 0.4;
+    color: white;
+    display: none;
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+}
+
+#productList ul li:hover .price {
+    display: block;
+}
+
+#productList ul li:hover .add {
+    display: block;
+}
+
+#productList ul li:hover .remove {
+    display: block;
+}
+
+#productList ul li:hover .cartSymbol {
+    display: block;
+}
+
+#footer {
+    text-align: center;
+    color: #2e6680;
+}
+
+.boldTextInTable {
+    font-weight: bold;
+}
+
+#checkOutButton {
+    color: #2e6680;
+}
